@@ -1,0 +1,32 @@
+# Binarios compilados
+*.exe
+*.pdb
+*.obj
+*.o
+*.out
+
+# Código C generado por Orbit
+orbit.c
+orbit_app.*
+
+# Base de datos de Orbit
+*.db
+
+# Backups de los scripts de fixes
+*.bak
+
+# Resultados generados (se regeneran corriendo los benchmarks)
+results/*.csv
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db

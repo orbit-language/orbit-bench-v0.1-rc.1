@@ -1,0 +1,10 @@
+fn main() -> int {
+    var result = ""
+    var i = 0
+    while i < 50000 {
+        result = result + "x"
+        i = i + 1
+    }
+    print(result.length)
+    return 0
+}

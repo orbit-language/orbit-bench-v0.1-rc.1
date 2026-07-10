@@ -1,0 +1,7 @@
+function fib(n) {
+  if (n < 2) return n;
+  return fib(n - 1) + fib(n - 2);
+}
+
+const result = fib(32);
+console.log(result);

@@ -1,0 +1,24 @@
+fn fib(n: int) -> int {
+    if n < 2 {
+        return n
+    }
+    return fib(n - 1) + fib(n - 2)
+}
+
+route GET "/ping" {
+    return ok "pong"
+}
+
+route GET "/json" {
+    return ok "{\"message\": \"hello\", \"status\": \"ok\", \"value\": 42}"
+}
+
+route GET "/compute" {
+    val result = fib(27)
+    val body = "{\"fib\": " + result + "}"
+    return ok body
+}
+
+fn main() -> int {
+    return 0
+}

@@ -1,0 +1,20 @@
+fn buildAndSum(size: int) -> int {
+    var list = []
+    var i = 0
+    while i < size {
+        list.push(i)
+        i = i + 1
+    }
+
+    var total = 0
+    for item in list {
+        total = total + item
+    }
+    return total
+}
+
+fn main() -> int {
+    val result = buildAndSum(1000000)
+    print(result)
+    return 0
+}
