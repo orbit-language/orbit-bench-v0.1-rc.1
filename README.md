@@ -1,5 +1,7 @@
 # Orbit Benchmark Suite
 
+![Orbit Benchmarks](./orbit_bench.png)
+
 Suite de benchmarks para medir el rendimiento de **Orbit** (lenguaje compilado)
 frente a **C**, **Node.js** y **Python**, en dos dimensiones:
 
